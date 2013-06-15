@@ -27,12 +27,19 @@
   <li class="fragment"><strong>Open Source Advocate</strong></li>
 </ul>
 
+--SUBSLIDE--
+
+  <h3>Computer Science</h3>
+  <h2><span style="color:#ff0000;">Bridging the Gap</span></h2>
+  <h3>Environmental Science</h3>
+
+
 <!------------------------------------------------------------>
 --SLIDE--
 <!-- Topic: Introduce not only NOAA, but ORR as well -->
 
 <img src="images/orr.png">
-<h1>ORR</h1>
+<h1>OR&R</h1>
 
 <!------------------------------------------------------------>
 --SLIDE--
@@ -44,17 +51,17 @@
 
 <h1>NOAA</h1>
 <ul>
-  <li><strong><span style="color:#ff0000;">Monitoring</span> = Weather, Physical Oceanography, etc...</strong></li>
-  <li><strong><span style="color:#ff0000;">Adapting</span> = Policy, Science, Boots on the Ground, etc...</strong></li>
-  <li><strong><span style="color:#ff0000;">Change</span> = Natural, Man-Made, etc...</strong></li>
+  <li><strong><span style="color:#ff0000;">Monitoring</span> = Sort-Long Term, Weather, Oceanography, ...</strong></li>
+  <li><strong><span style="color:#ff0000;">Adapting</span> = Policy, Science, Boots on the Ground, ...</strong></li>
+  <li><strong><span style="color:#ff0000;">Change</span> = Natural, Human Influence, ...</strong></li>
 </ul>
 
 --SUBSLIDE--
 
-<h1>ORR</h1>
+<h1>OR&R</h1>
 <ul>
   <li><strong><span style="color:#ff0000;">Monitoring</span> = Real-Time monitoring</strong></li>
-  <li><strong><span style="color:#ff0000;">Adapting</span> = Staying agile (people, tools, etc.)</strong></li>
+  <li><strong><span style="color:#ff0000;">Adapting</span> = Staying agile (people, tools, ...)</strong></li>
   <li><strong><span style="color:#ff0000;">Change</span> = The unexpected</strong></li>
 </ul>
 
@@ -62,28 +69,29 @@
 --SLIDE--
 <!-- Topic: Why I am here... DWH and ERMA+TEAM -->
 
-<h2>The <span style="color:#ff0000;">Deepwater Horizon</span> experience</h2>
+<h2>The <span style="color:#ff0000;">ERMA application</span> and <span style="color:#ff0000;">team</span></h2>
 
 --SUBSLIDE--
 
-<h2>The <span style="color:#ff0000;">ERMA application</span> and <span style="color:#ff0000;">team</span></h2>
+<h2>The <span style="color:#ff0000;">Deepwater Horizon</span> experience</h2>
 
 <!------------------------------------------------------------>
 --SLIDE--
 <!-- Topic: ERMA intro -->
 
-<h1>Our little project... <span style="color:#0000ff;">ERMA<span></h1>
+<h1>Our little project...</h1>
+<h2><span style="color:#ff0000;">E</span>nvironmental <br><span style="color:#ff0000;">R</span>esponse <span style="color:#ff0000;">M</span>anagment <span style="color:#ff0000;">A</span>pplication</h2>
 
 <!------------------------------------------------------------>
 --SLIDE--
 <!-- Topic: What is ERMA... user app, but complex system -->
 
 <h2>What is ERMA?</h2>
-<img src="images/fish_closure.png">
+<img style="max-height: 500px;" src="images/fish_closure.png">
 
 --SUBSLIDE--
 
-<img src="images/arch_image.png">
+<img style="max-height: 500px;" src="images/overview.png">
 
 <!------------------------------------------------------------>
 --SLIDE--
@@ -96,7 +104,7 @@
 --SLIDE--
 <!-- Topic: Lead in to DWH -->
 
-<img src="images/rig.png">
+<img style="max-height: 500px;" src="images/rig.png">
 <h1>DWH</h1>
 
 <!------------------------------------------------------------>
@@ -116,19 +124,19 @@
 --SLIDE--
 <!-- Topic: DWH in images -->
 
-<img src="images/dwh_burning.png">
+<img style="max-height: 550px;" src="images/dwh_burning.png">
 
 --SUBSLIDE--
 
-<img src="images/dwh_air_view.png">
+<img style="max-height: 550px;" src="images/dwh_air_view.png">
 
 --SUBSLIDE--
 
-<img src="images/turtle.png">
+<img style="max-height: 550px;" src="images/turtle.png">
 
 --SUBSLIDE--
 
-<img src="images/burn.png">
+<img style="max-height: 550px;" src="images/burn.png">
 
 <!------------------------------------------------------------>
 --SLIDE--
@@ -156,7 +164,15 @@
 
 --SUBSLIDE--
 
-<img src="images/ops_close.jpg">
+<img style="max-height: 550px;" src="images/ops_close.jpg">
+
+--SUBSLIDE--
+
+<img style="max-height: 550px;" src="images/ops2.jpg">
+
+--SUBSLIDE--
+
+<img style="max-height: 550px;" src="images/print.jpg">
 
 <!------------------------------------------------------------>
 --SLIDE--
@@ -175,27 +191,27 @@
 --SLIDE--
 <!-- Topic: ERMA screenshots showing diverse capability -->
 
-<img src="images/sample2.png">
+<img style="max-height: 550px;" src="images/sample2.png">
 
 --SUBSLIDE--
 
-<img src="images/ships.png">
+<img style="max-height: 550px;" src="images/ships.png">
 
 --SUBSLIDE--
 
-<img src="images/storm.png">
+<img style="max-height: 550px;" src="images/storm.png">
 
 --SUBSLIDE--
 
-<img src="images/trajectory.png">
+<img style="max-height: 550px;" src="images/trajectory.png">
 
 --SUBSLIDE--
 
-<img src="images/overflight.png">
+<img style="max-height: 550px;" src="images/overflight.png">
 
 --SUBSLIDE--
 
-<img src="images/spot_trackers.png">
+<img style="max-height: 550px;" src="images/spot_trackers.png">
 
 
 <!------------------------------------------------------------>
@@ -324,7 +340,7 @@
 <ul>
   <li><strong>We use OSM</strong></li>
   <li><strong>We use OGC standards based data transfer</strong></li>
-  <li><strong>We use browser tech that is compatible with CG</strong></li>
+  <li><strong>Browser tech that is compatible with older browsers (USCG)</strong></li>
 </ul>
 
 <!------------------------------------------------------------>
@@ -350,7 +366,19 @@
 --SLIDE--
 <!-- Topic: The crystal ball... the future -->
 
-<h1>Future?</h1>
+<h1>ERMA's Future?</h1>
+<ul>
+  <li class="fragment"><strong>Scale</strong></li>
+  <li class="fragment"><strong>Deep integration across agencies</strong></li>
+  <li class="fragment"><strong>Mobile</strong></li>
+  <li class="fragment"><strong>Stand-Alone instances with sync</strong></li>
+</ul>
+
+<!------------------------------------------------------------>
+--SLIDE--
+<!-- Topic: The crystal ball... the future -->
+
+<h1>Future of response?</h1>
 <ul>
   <li class="fragment"><strong>There will be more spills</strong></li>
   <li class="fragment"><strong>There will be more hurricanes</strong></li>
