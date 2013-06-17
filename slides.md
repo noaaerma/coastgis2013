@@ -6,8 +6,9 @@
 <!------------------------------------------------------------>
 <!-- Topic: Title slide -->
 
-<img src="images/NOAA_logo.png">
-<h1>ERMA</h1>
+<!--img src="images/NOAA_logo.png"-->
+<img style="max-height: 200px;" src="images/dwh_burning_cover.png">
+<h2>ERMA<small><span style="font-size:75%;">&reg;</span></small> - NOAA driving next generation environmental response</h2>
 <p>
     <small>Aaron Racicot - <a href="mailto:aaron.racicot@noaa.gov">aaron.racicot@noaa.gov</a>
 <br>
@@ -58,7 +59,7 @@
 
 --SUBSLIDE--
 
-<h1>OR&R</h1>
+<h1>ERMA at OR&R</h1>
 <ul>
   <li><strong><span style="color:#ff0000;">Monitoring</span> = Real-Time monitoring</strong></li>
   <li><strong><span style="color:#ff0000;">Adapting</span> = Staying agile (people, tools, ...)</strong></li>
@@ -80,14 +81,20 @@
 <!-- Topic: ERMA intro -->
 
 <h1>Our little project...</h1>
-<h2><span style="color:#ff0000;">E</span>nvironmental <br><span style="color:#ff0000;">R</span>esponse <span style="color:#ff0000;">M</span>anagment <span style="color:#ff0000;">A</span>pplication</h2>
+
+<ul style="list-style: none;">
+  <li><h2><span style="color:#ff0000;">E</span>nvironmental</h2></li>
+  <li><h2><span style="color:#ff0000;">R</span>esponse</h2></li>
+  <li><h2><span style="color:#ff0000;">M</span>anagment</h2></li>
+  <li><h2><span style="color:#ff0000;">A</span>pplication</h2></li>
+</ul>
 
 <!------------------------------------------------------------>
 --SLIDE--
 <!-- Topic: What is ERMA... user app, but complex system -->
 
 <h2>What is ERMA?</h2>
-<img style="max-height: 500px;" src="images/fish_closure.png">
+<img style="max-height: 500px;" src="images/dwh_erma.png">
 
 --SUBSLIDE--
 
@@ -144,7 +151,7 @@
 
 <h1>DWH and ERMA</h1>
 
-* Over 180 Individual NOAA GIS Staff
+* Over 180 Individual Federal/State GIS Staff
 * 30-40 specifically ERMA (up from 4 normally)
 * 3 ERMA developers
 
@@ -168,10 +175,6 @@
 
 --SUBSLIDE--
 
-<img style="max-height: 550px;" src="images/ops2.jpg">
-
---SUBSLIDE--
-
 <img style="max-height: 550px;" src="images/print.jpg">
 
 <!------------------------------------------------------------>
@@ -181,7 +184,7 @@
 <h1>ERMA Shines</h1>
 <ul>
   <li class="fragment"><strong>Less than 48 hours to deploy</strong></li>
-  <li class="fragment"><strong>Scalable – 1400 users, 16,000+ layers</strong></li>
+  <li class="fragment"><strong>Scalable – 1400+ response users, 16,000+ layers (DWH)</strong></li>
   <li class="fragment"><strong>25,000+ layers today</strong></li>
   <li class="fragment"><strong>Nimble – over 850 code commits in DWH first year</strong></li>
   <li class="fragment"><strong>Public ERMA – over 20 million hits in 24 hours!</strong></li>
@@ -191,19 +194,19 @@
 --SLIDE--
 <!-- Topic: ERMA screenshots showing diverse capability -->
 
-<img style="max-height: 550px;" src="images/sample2.png">
+<img style="max-height: 550px;" src="images/sample2_crop.png">
 
 --SUBSLIDE--
 
-<img style="max-height: 550px;" src="images/ships.png">
+<img style="max-height: 550px;" src="images/ships_crop.png">
 
 --SUBSLIDE--
 
-<img style="max-height: 550px;" src="images/storm.png">
+<img style="max-height: 550px;" src="images/storm_crop.png">
 
 --SUBSLIDE--
 
-<img style="max-height: 550px;" src="images/trajectory.png">
+<img style="max-height: 550px;" src="images/trajectory_crop.png">
 
 --SUBSLIDE--
 
@@ -298,14 +301,8 @@
 --SLIDE--
 <!-- Topic: Sandy as a non-DWH incident example -->
 
-<h2>Hurricanes</h2>
-<img style="max-height: 500px;" src="images/isaac1.jpg">
-<h3>Isaac</h3>
-
---SUBSLIDE--
-
-<img style="max-height: 500px;" src="images/model_weather.png">
-<h3> Sandy </h3>
+<h2>Hurricanes (Isaac)</h2>
+<img style="max-height: 550px;" src="images/isaac1.png">
 
 <!------------------------------------------------------------>
 --SLIDE--
@@ -322,7 +319,7 @@
 
 --SUBSLIDE--
 
-<h2>Focus on a <span style="color:#ff0000;">small team</span> of <span style="color:#ff0000;">experts</span></h2>
+<h2>Focus on <span style="color:#ff0000;">small teams</span> of <span style="color:#ff0000;">experts</span></h2>
 
 --SUBSLIDE--
 
@@ -338,8 +335,8 @@
 <h2>Utilize <span style="color:#ff0000;">open data</span></h2>
 <h2>and <span style="color:#ff0000;">open standards</span></h2>
 <ul>
-  <li><strong>We use OSM</strong></li>
   <li><strong>We use OGC standards based data transfer</strong></li>
+  <li><strong>We use OSM (Open Street Map)</strong></li>
   <li><strong>Browser tech that is compatible with older browsers (USCG)</strong></li>
 </ul>
 
@@ -350,8 +347,14 @@
 <h1>What is making ERMA successful?</h1>
 <ul>
   <li><strong>Small distributed team... hand picked experts</strong></li>
-  <li><strong>Core data management team at ORR</strong></li>
+  <li><strong>Core team at OR&R - Scientists and data managers</strong></li>
   <li><strong>On-site training/participation</strong></li>
+  <li><strong>Unique Features:</strong></li>
+  <ul>
+    <li><strong>Dynamic web-based upload</strong></li>
+    <li><strong>Full styling control by users</strong></li>
+    <li><strong>Fine grained permissions - One interface, many agencies</strong></li>
+  </ul>
   <li><strong><span style="color:#ff0000;">Make ERMA easy to use</span></strong></li>
 </ul>
 
@@ -392,7 +395,7 @@
 
 <h1>Key to the future?</h1>
 <ul>
-  <li class="fragment"><strong>Nimble, open, and scalable tools...</strong></li>
+  <li class="fragment"><strong>Build nimble, open, and scalable tools...</strong></li>
   <li class="fragment"><strong>Talk together via open protocols...</strong></li>
   <li class="fragment"><strong>The right data (both open and closed)...</strong></li>
   <li class="fragment"><strong>The right dedicated people behind them...</strong></li>
@@ -412,17 +415,18 @@
 
 --SUBSLIDE--
 
-<h3>Dr. Amy Merten, Spatial Data Branch Chief</h3>
-<h4>amy.merten@noaa.gov - 206.526.6829</h4>
-
-<h3>Michele Jacobi, ERMA Technical Team Lead</h3>
-<h4>michele.jacobi@noaa.gov - 206.526.6830</h4>
-
-<h3>George Graettinger, Gulf of Mexico Regional Lead</h3>
-<h4>george.graettinger@noaa.gov - 206.526.4660</h4>
-
-<h3>Jill Bodnar, ERMA Drill Lead</h3>
-<h4>jill.bodnar@noaa.gov - 206.526.4561</h4>
+<h4>Dr. Amy Merten, Spatial Data Branch Chief</h4>
+<h4><small>amy.merten@noaa.gov</small></h4>
+<h4>Michele Jacobi, ERMA Technical Team Lead</h4>
+<h4><small>michele.jacobi@noaa.gov</small></h4>
+<h4>George Graettinger, Gulf of Mexico Regional Lead</h4>
+<h4><small>george.graettinger@noaa.gov</small></h4>
+<h4>Benjamin Shorr</h4>
+<h4><small>benjamin.shorr@noaa.gov</small></h4>
+<h4>Kari Sheets</h4>
+<h4><small>kari.sheets@noaa.gov</small></h4>
+<h4>Jill Bodnar</h4>
+<h4><small>jill.bodnar@noaa.gov</small></h4>
 
 --SUBSLIDE--
 
@@ -432,6 +436,9 @@
 <h4>U.S. Coast Guard</h4>
 <h4>NOAA’s Office of Response and Restoration</h4>
 <h4>Coastal Storms Program</h4>
+<h4>DOI/Bureau of Safety and Environmental Enforcement</h4>
+<h4>Oil Spill Recovery Institute</h4>
+
 
 --SUBSLIDE--
 
