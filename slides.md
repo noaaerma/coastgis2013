@@ -143,6 +143,10 @@
 
 --SUBSLIDE--
 
+<img style="max-height: 550px;" src="images/dolphin_in_oil.jpg">
+
+--SUBSLIDE--
+
 <img style="max-height: 550px;" src="images/burn.png">
 
 <!------------------------------------------------------------>
@@ -234,7 +238,7 @@
 <ul>
   <li><strong>Field data collection</strong></li>
   <li><strong>TWGs (technical working groups)</strong></li>
-  <li><strong>Archival and visualization of data</strong></li>
+  <li><strong>Archival, aggregation, and visualization of data</strong></li>
   <li><strong>Support ongoing court cases</strong></li>
 </ul>
 
@@ -268,6 +272,10 @@
 
 <h2>Future project planning and tracking</h2>
 <img style="max-height: 550px;" src="images/orr_restoration.png">
+
+--SUBSLIDE--
+<img style="max-height: 550px;" src="images/PNWERMA.png">
+
 
 <!------------------------------------------------------------>
 --SLIDE--
