@@ -85,7 +85,7 @@
 <ul style="list-style: none;">
   <li><h2><span style="color:#ff0000;">E</span>nvironmental</h2></li>
   <li><h2><span style="color:#ff0000;">R</span>esponse</h2></li>
-  <li><h2><span style="color:#ff0000;">M</span>anagment</h2></li>
+  <li><h2><span style="color:#ff0000;">M</span>anagement</h2></li>
   <li><h2><span style="color:#ff0000;">A</span>pplication</h2></li>
 </ul>
 
@@ -399,7 +399,7 @@
 
 <!------------------------------------------------------------>
 --SLIDE--
-<!-- Topic: The keys to the kingdome -->
+<!-- Topic: The keys to the kingdom -->
 
 <h1>Key to the future?</h1>
 <ul>
